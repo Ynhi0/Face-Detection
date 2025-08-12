@@ -10,13 +10,18 @@ This project is a high-performance face detection application built with Python.
     ```sh
     git clone https://github.com/Ynhi0/Face-Detection.git
     ```
+    
 2.**Install the required Python packages:**
 (priority to use venv)
     ```sh
     pip install -r requirements.txt
     ```
+
+    
 3. **Install the database: **
 Read file README.txt in 'datasets/' directory
+
+
 4. **Train:**
     ```sh
     python train.py
