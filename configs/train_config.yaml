@@ -1,0 +1,9 @@
+# Cấu hình huấn luyện
+model: './pretrained/yolo11n.pt' # Model để bắt đầu file .pt hoặc 'yolov8n.yaml'
+epochs: 50
+imgsz: 640
+batch: 16
+device: 0        # 0 cho GPU đầu tiên, 'cpu' cho CPU
+patience: 20      # Dừng sớm nếu không cải thiện sau 20 epochs
+workers: 2      # Số luồng tải dữ liệu, tùy chỉnh theo CPU
+project_name: 'WIDER_Face_Detection' # Tên project trong thư mục 'runs/detect'

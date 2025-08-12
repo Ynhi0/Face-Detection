@@ -1,0 +1,9 @@
+# Đường dẫn tương đối từ thư mục gốc của project
+train_images: './datasets/WIDER_train/images'
+val_images: './datasets/WIDER_val/images'
+
+train_annotation_file: './datasets/wider_face_split/wider_face_train_bbx_gt.txt'
+val_annotation_file: './datasets/wider_face_split/wider_face_val_bbx_gt.txt'
+
+# Thư mục chứa dữ liệu đã được chuyển đổi sang định dạng YOLO
+yolo_dataset_dir: 'yolo_output'
