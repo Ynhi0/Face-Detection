@@ -18,7 +18,7 @@ This project is a high-performance face detection application built with Python.
     ```
 
     
-3. **Install the database: **
+3. **Install the database:**
 Read file README.txt in 'datasets/' directory
 
 
